@@ -1,5 +1,5 @@
 {
-  "name": "propuesta",
+  "name": "Proyecto",
   "private": true,
   "version": "0.0.0",
   "homepage": "https://Foxyspartan119.github.io/Proyecto-MJ",
@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "oxlint",
     "preview": "vite preview"
   },
